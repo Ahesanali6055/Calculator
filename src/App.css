@@ -6,23 +6,10 @@
   font-family: 'Lobster', cursive;
 }
 
-body{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.container{
-  top: 20%;
-  left: 35%;
-  position: absolute;
-  transform: translate(-50,-50);
-  margin: 0 auto;
-  width: 400px;
-  text-align: center;
-  border: 5px solid black;
-  background: black;
-  border-radius: 8px;
+.caculator{
+  background-color: black;
+  height: 450px;
+  border-radius: 15px;
 }
 
 .keypad{
@@ -35,7 +22,7 @@ body{
 
 input{
   height: 80px;
-  width: 383px;
+  width: 100%;
   background-color: blanchedalmond;
   color: black;
   text-align: right;
@@ -66,6 +53,8 @@ button:hover{
 
 .btn{
   background-color: skyblue;
+  font-weight: bold;
+  font-size: 25px;
 }
 
 
